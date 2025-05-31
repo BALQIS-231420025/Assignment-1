@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: #333;
+}
+
+.test{
+  padding: 5px;
+  display: flex;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.logo2{
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    margin-left: 35%;
+    margin-right: 10px;
+    padding: 5px;
+    color: aliceblue;
+
+}
+
+.logo1{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    margin-left: 30px;
+    margin-right: 35%;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.bg img {
+    width: 100%; 
+}
+
+.bg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+    font-family: "Lucida Console";
+    margin: 0%;
+    font-size: 4em;
+    color: aliceblue;
+    width: auto;
+    -webkit-text-stroke: 2px #000000b0;
+}
+
+
+.title2 {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.2); 
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 3px solid #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.navbar button{
+  background-color: #dedede; 
+  border: 1px solid #0000005e; 
+  color: rgb(0, 0, 0); 
+  padding: 15px 34px; 
+  cursor: pointer; 
+  float: left; 
+}
+
+.profile button:not(:last-child) {
+  border-right: none; 
+}
+
+.navbar:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar button:hover {
+  background-color: #ffffff5e;
+  color: white;
+}
+
+.bg .navbar {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 500%);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.profile {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-image: url('bodybgblur.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+}
+
+
+table {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.table1 img{
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 50px;
+  background-color: #ebebeb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.table2 img{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+  padding-bottom: 50px;
+  background-color: #ebebeb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.td11 {
+  width: 70%; 
+  padding: 20px; 
+  text-align: justify;
+}
+
+.styletd11{
+  background-color: hsla(34, 78%, 91%, 0.6);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.td22{
+  width: 70%; 
+  padding: 20px; 
+  text-align: justify; 
+  text-align-last: right;
+}
+
+.styletd22{
+  background-color: hsla(34, 78%, 91%, 0.6);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.502);
+  width: 100%;
+  padding: 30px 15%;
+  color: aliceblue
+}
+
+.footer h3{
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.sosmed{
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.sosmed i {
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+}

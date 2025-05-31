@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width:device-width, initial-scale=1.0">
+  <title>Assingment 1: WORKS</title>
+  <link rel="stylesheet" href="works.css">
+  <script src="https://kit.fontawesome.com/f57601f2a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <section class="test">
+        <h2 class="logo1">BALQIS ARAZAMAN</h2>
+        <h2 class="logo2">231420025</h2>
+    </section>
+
+    <section class="headerguide">
+        <i class="fa-solid fa-images"></i>&nbsp;<h1>My Works</h1>&nbsp;<i class="fa-solid fa-images"></i>
+    </section>
+
+    <div class="navbar">
+        <button onclick="document.location='index.html';">HOME</button>
+        <button onclick="document.location='Guide.html';">STEP-BY-STEP</button>
+        <button onclick="document.location='inspiration.html';">INSPIRATIONS</button>
+        <button>WORKS</button>
+    </div>
+
+    <section>
+
+<div class="row">
+  <div class="column">
+    <img src="img1square.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img2square.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img3square.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img4square..jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img5square..jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img6square..jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img7square..jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img8square.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+  </div>
+    <div class="column">
+    <img src="img9square..jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img10square..jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img11square.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img12square..jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 12</div>
+      <img src="img1.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 12</div>
+      <img src="img2.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 12</div>
+      <img src="img3.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 12</div>
+      <img src="img4.jpg" style="width:45%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 12</div>
+      <img src="img5.jpg" style="width:35%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 12</div>
+      <img src="img6.jpg" style="width:35%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 12</div>
+      <img src="img7.jpg" style="width:35%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 12</div>
+      <img src="img8.jpg" style="width:35%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 12</div>
+      <img src="img9.jpg" style="width:35%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">10 / 12</div>
+      <img src="img10.jpg" style="width:35%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">11 / 12</div>
+      <img src="img11.jpg" style="width:35%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">12 / 12</div>
+      <img src="img12.jpg" style="width:35%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img1square.jpg" onclick="currentSlide(1)" alt="Dawn at School">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2square.jpg" onclick="currentSlide(2)" alt="Dusk at UniMAP">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img3square.jpg" onclick="currentSlide(3)" alt="In Between">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img4square..jpg" onclick="currentSlide(4)" alt="Clouds">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img5square..jpg" onclick="currentSlide(5)" alt="Anyone can Fly">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img6square..jpg" onclick="currentSlide(6)" alt="Who?">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img7square..jpg" onclick="currentSlide(7)" alt="After the Rain">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img8square.jpg" onclick="currentSlide(8)" alt="Masjid Sendayan">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img9square..jpg" onclick="currentSlide(9)" alt="Miniature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img10square..jpg" onclick="currentSlide(10)" alt="Up High">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img11square.jpg" onclick="currentSlide(11)" alt="Field of Flowers">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img12square..jpg" onclick="currentSlide(12)" alt="Beach">
+    </div>
+
+  </div>
+</div>
+
+    </section>
+
+    <div class="footer">
+        <h3>Follow my socials</h3>
+        <div class="sosmed">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-tiktok"></i>
+        <i class="far fa-envelope"></i>
+    </div>
+
+    <script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+</body>

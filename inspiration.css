@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+    background: #ff7f54;
+    background: radial-gradient(circle, rgba(255, 127, 84, 1) 0%, rgba(115, 56, 56, 1) 65%, rgba(0, 0, 0, 1) 100%);
+    height: 1000px;
+}
+
+.test{
+  padding: 5px;
+  display: flex;
+  background: rgba(0, 0, 0, 0.502);
+}
+
+.logo2{
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    margin-left: 35%;
+    margin-right: 10px;
+    padding: 5px;
+    color: aliceblue;
+
+}
+
+.logo1{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    margin-left: 30px;
+    margin-right: 35%;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.headerguide {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    padding: 15px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.headerguide i {
+    font-size: 50px;
+}
+
+.headerguide h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+
+table {
+  margin: auto;
+  width: 80%;
+}
+
+tr {
+    height: 100px;
+}
+
+td {
+    width: 300px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.table3 {
+    padding: 50px;
+}
+
+.sheryl img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.teow img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.nadirah img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.td32 {
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+}
+
+.td32 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.td33 {
+    text-align: center;
+}
+
+.td33 i {
+    font-size: 25px;
+    padding: 2px;
+}
+
+.td33 a {
+    display: block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+.footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.502);
+  width: 100%;
+  padding: 30px 15%;
+  color: aliceblue
+}
+
+.footer h3{
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.sosmed{
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.sosmed i {
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.navbar {
+    z-index: 999; 
+}
+
+.navbar button{
+  background-color: #dedede; 
+  border: 1px solid #0000005e; 
+  color: rgb(0, 0, 0); 
+  padding: 15px 34px; 
+  cursor: pointer; 
+  float: left; 
+}
+
+.navbar button:not(:last-child) {
+  border-right: none; 
+}
+
+.navbar:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar button:hover {
+  background-color: #ffffff5e;
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 500%);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
